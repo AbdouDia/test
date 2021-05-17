@@ -1,5 +1,5 @@
 # Manager Hotel Software
-Development of a management software for the Ufuck Hotel.  It will allow hotel employees to manage the reservation of rooms, restaurants, swimming pool, conference room, etc.
+Development of a management software for the Ma Hotel.  It will allow hotel employees to manage the reservation of rooms, restaurants, swimming pool, conference room, etc.
 
 ## Features
 See [specifications](cahier-de-charge.pdf)
@@ -23,8 +23,16 @@ Then the secondary branches that are made and unraveled over time:
     
 
  - **hotfix** starts from **master** and merges into **master** and **develop**/**release**.
- We create a **hotfix/xxx** branch when we want to fix a critical bug in production quickly.  It’s a bit like an unscheduled release.
+ We create a **hotfix/xxx** branch when we want to fix a critical bug in production quickly. It’s a bit like an unscheduled release.
  When the patch is developed, it is merged into master with the appropriate version number, as well as into develop (or the current release branch, if applicable) to update the changes made.
    
+## Graphic chart
+Title: #3F90D3;
+Title font: Kaushan Script
+Paragraph: #000
+paragraph font: Pacifico
+Button: #3F90D3;
+Nav link: #3F90D3;
+
 ## Deadline
 The software must be delivered at the latest the 21/05/2021.
