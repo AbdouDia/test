@@ -1,0 +1,320 @@
+Dictionnaire de données 
+
+Nom : id_chambre
+Code : ID_CHAMBRE
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : name
+Code : NAME
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : description
+Code : DESCRIPTION
+Type : TEXT
+Taille : ,
+Commentaire : 
+
+Nom : image
+Code : IMAGE
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : option
+Code : OPTION
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : prix
+Code : PRIX
+Type : MONEY
+Taille : ,
+Commentaire : 
+
+Nom : id_client
+Code : ID_CLIENT
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : nom
+Code : NOM
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : prenom
+Code : PRENOM
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : email
+Code : EMAIL
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : mdp
+Code : MDP
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : reservation
+Code : RESERVATION
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : options
+Code : OPTION
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : id_bar
+Code : ID_BAR
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : menu
+Code : MENU
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : id_restaurant
+Code : ID_RESTAURANT
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : id_facture
+Code : ID_FACTURE
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : num_reference
+Code : NUM_REFERENCE
+Type : INTEGER
+Taille : 10,
+Commentaire : 
+
+Nom : date
+Code : DATE
+Type : DATE
+Taille : ,
+Commentaire : 
+
+Nom : ref_produit
+Code : REF_PRODUIT
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : quantite_produit
+Code : QUANTITE_PRODUIT
+Type : INTEGER
+Taille : ,
+Commentaire : 
+
+Nom : prix_u_ht_produit
+Code : PRIX_U_HT_PRODUIT
+Type : FLOAT
+Taille : ,
+Commentaire : 
+
+Nom : total_ht
+Code : TOTAL_HT
+Type : FLOAT
+Taille : ,
+Commentaire : 
+
+Nom : tva
+Code : TVA
+Type : FLOAT
+Taille : ,
+Commentaire : 
+
+Nom : total_ttc
+Code : TOTAL_TTC
+Type : FLOAT
+Taille : ,
+Commentaire : 
+
+Nom : id_salle
+Code : ID_SALLE
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : type
+Code : TYPE
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : id_piscine
+Code : ID_PISCINE
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : ouverture
+Code : OUVERTURE
+Type : TIME
+Taille : ,
+Commentaire : 
+
+Nom : fermeture
+Code : FERMETURE
+Type : TIME
+Taille : ,
+Commentaire : 
+
+Nom : nettoyage
+Code : NETTOYAGE
+Type : BOOL
+Taille : ,
+Commentaire : 
+
+Nom : id_menu
+Code : ID_MENU
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : description
+Code : DESCRIPTION
+Type : VARCHAR
+Taille : 255,
+Commentaire : 
+
+Nom : prix_un
+Code : PRIX_UN
+Type : FLOAT
+Taille : ,
+Commentaire : 
+
+Nom : id_reservation
+Code : ID_RESERVATION
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : num_reservation
+Code : NUM_RESERVATION
+Type : INTEGER
+Taille : ,
+Commentaire : 
+
+Nom : client_id
+Code : CLIENT_ID
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : type
+Code : TYPE
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : debut_le
+Code : DEBUT_LE
+Type : DATETIME
+Taille : ,
+Commentaire : 
+
+Nom : fin_le
+Code : FIN_LE
+Type : DATETIME
+Taille : ,
+Commentaire : 
+
+Nom : status
+Code : STATUS
+Type : BOOL
+Taille : ,
+Commentaire : 
+
+Nom : occupe
+Code : OCCUPE
+Type : BOOL
+Taille : ,
+Commentaire : 
+
+Nom : categorie
+Code : CATEGORIE
+Type : VARCHAR
+Taille : 50,
+Commentaire : 
+
+Nom : id
+Code : ID
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : bar_id
+Code : BAR_ID
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : restaurant_id
+Code : RESTAURANT_ID
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : menu_id
+Code : MENU_ID
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : chambre_id
+Code : CHAMBRE_ID
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : reservation_id
+Code : RESERVATION_ID
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : piscine_id
+Code : CLIENT_ID
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : salle_id
+Code : SALLE_ID
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : clieent_id
+Code : CLIEENT_ID
+Type : INT
+Taille : ,
+Commentaire : 
+
+Nom : facture_id
+Code : FACTURE_ID
+Type : INT
+Taille : ,
+Commentaire : 
+

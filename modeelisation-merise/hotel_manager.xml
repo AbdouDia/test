@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<work>
+    <about>
+        <version num="0.5"/>
+        <author>
+            <name>MESSOUCI</name>
+            <email>jmerise@jfreesoft.com</email>
+        </author>
+    </about>
+<MCD>
+    <entitiesList>
+        <entite name="Chambre" x="645" y="0">
+            <attribut name ="id_chambre" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="name" type="Varchar" size1="50" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="description" type="Text" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="image" type="Varchar" size1="255" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="options" type="Varchar" size1="255" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="prix" type="Money" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="occupe" type="Bool" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="status" type="Bool" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="categorie" type="Varchar" size1="50" size2="" key="" isnull="false" comment=""/>
+
+        </entite>
+
+        <entite name="Client" x="3" y="103">
+            <attribut name ="id_client" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="nom" type="Varchar" size1="50" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="prenom" type="Varchar" size1="50" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="email" type="Varchar" size1="255" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="mdp" type="Varchar" size1="255" size2="" key="" isnull="false" comment=""/>
+
+        </entite>
+
+        <entite name="Bar" x="652" y="578">
+            <attribut name ="id_bar" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="name" type="Varchar" size1="50" size2="" key="" isnull="false" comment=""/>
+
+        </entite>
+
+        <entite name="Restaurant" x="649" y="490">
+            <attribut name ="id_restaurant" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="name" type="Varchar" size1="50" size2="" key="" isnull="false" comment=""/>
+
+        </entite>
+
+        <entite name="Facture" x="15" y="617">
+            <attribut name ="id_facture" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="num_reference" type="Integer" size1="10" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="date" type="Date" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="ref_produit" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="quantite_produit" type="Integer" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="prix_u_ht_produit" type="Float" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="total_ht" type="Float" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="tva" type="Float" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="total_ttc" type="Float" size1="" size2="" key="" isnull="false" comment=""/>
+
+        </entite>
+
+        <entite name="Salle" x="648" y="189">
+            <attribut name ="id_salle" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="name" type="Varchar" size1="50" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="description" type="Text" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="image" type="Varchar" size1="255" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="type" type="Varchar" size1="50" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="options" type="Varchar" size1="255" size2="" key="" isnull="false" comment=""/>
+
+        </entite>
+
+        <entite name="Piscine" x="648" y="329">
+            <attribut name ="id_piscine" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="name" type="Varchar" size1="255" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="description" type="Text" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="image" type="Varchar" size1="255" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="ouverture" type="Time" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="fermeture" type="Time" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="nettoyage" type="Bool" size1="" size2="" key="" isnull="false" comment=""/>
+
+        </entite>
+
+        <entite name="Menu" x="1330" y="452">
+            <attribut name ="id_menu" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="name" type="Varchar" size1="50" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="description" type="Varchar" size1="255" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="image" type="Varchar" size1="255" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="prix_un" type="Float" size1="" size2="" key="" isnull="false" comment=""/>
+
+        </entite>
+
+        <entite name="Reservation" x="1328" y="130">
+            <attribut name ="id_reservation" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="num_reservation" type="Integer" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="client_id" type="Int" size1="" size2="" key="INDEX" isnull="false" comment=""/>
+            <attribut name ="type" type="Int" size1="" size2="" key="INDEX" isnull="false" comment=""/>
+            <attribut name ="debut_le" type="Datetime" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="fin_le" type="Datetime" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="status" type="Bool" size1="" size2="" key="" isnull="false" comment=""/>
+
+        </entite>
+
+        <relation name="Client_Bar" x="250" y="524">
+            <attribut name ="id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="client_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="bar_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+
+        </relation>
+
+        <relation name="Client_Chambre" x="272" y="48">
+            <attribut name ="id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="client_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="chambre_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+
+        </relation>
+
+        <relation name="Client_Salle" x="267" y="149">
+            <attribut name ="id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="client_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="salle_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+
+        </relation>
+
+        <relation name="Client_Piscine" x="268" y="252">
+            <attribut name ="id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="client_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="piscine_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+
+        </relation>
+
+        <relation name="Client_Facture" x="21" y="403">
+            <attribut name ="id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="client_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="facture_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+
+        </relation>
+
+        <relation name="Client_Restaurant" x="269" y="392">
+            <attribut name ="id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="client_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="restaurant_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+
+        </relation>
+
+        <relation name="Bar_Menu" x="1030" y="405">
+            <attribut name ="id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="client_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="bar_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+
+        </relation>
+
+        <relation name="Restaurant_Menu" x="1004" y="533">
+            <attribut name ="id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="restaurant_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="bar_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+
+        </relation>
+
+        <relation name="Salle_Reservation" x="1035" y="188">
+            <attribut name ="id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="salle_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="reservation_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+
+        </relation>
+
+        <relation name="Chambre_Reservation" x="1022" y="28">
+            <attribut name ="id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="chambre_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+            <attribut name ="reservation_id" type="Int" size1="" size2="" key="" isnull="false" comment=""/>
+
+        </relation>
+
+    </entitiesList>
+    <LinkList>
+        <link name="" card="1,n" elem1="Bar" elem2="Client_Bar" casse="false" x="446.0" y="492.0" />
+        <link name="" card="1,n" elem1="Client" elem2="Client_Bar" casse="false" x="201.0" y="261.0" />
+        <link name="" card="1,n" elem1="Chambre" elem2="Client_Chambre" casse="false" x="455.0" y="80.0" />
+        <link name="" card="1,n" elem1="Client" elem2="Client_Chambre" casse="false" x="200.0" y="116.0" />
+        <link name="" card="1,n" elem1="Salle" elem2="Client_Salle" casse="false" x="455.0" y="211.0" />
+        <link name="" card="1,n" elem1="Client" elem2="Client_Salle" casse="false" x="201.0" y="164.0" />
+        <link name="" card="1,n" elem1="Piscine" elem2="Client_Piscine" casse="false" x="456.0" y="319.0" />
+        <link name="" card="1,n" elem1="Client" elem2="Client_Piscine" casse="false" x="201.0" y="198.0" />
+        <link name="" card="1,n" elem1="Facture" elem2="Client_Facture" casse="false" x="93.0" y="543.0" />
+        <link name="" card="1,n" elem1="Client" elem2="Client_Facture" casse="false" x="78.0" y="270.0" />
+        <link name="" card="1,n" elem1="Restaurant" elem2="Client_Restaurant" casse="false" x="457.0" y="422.0" />
+        <link name="" card="1,n" elem1="Client" elem2="Client_Restaurant" casse="false" x="201.0" y="238.0" />
+    </LinkList>
+    <heritageList>
+    </heritageList>
+</MCD>
+</work>
+
