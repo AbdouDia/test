@@ -11,6 +11,19 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1skoM4Da4ddeikCSgjGTjhAtRiT" />
@@ -37,6 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621425896728</updated>
       <workItem from="1621425899046" duration="333000" />
+      <workItem from="1621426305352" duration="302000" />
     </task>
     <servers />
   </component>
